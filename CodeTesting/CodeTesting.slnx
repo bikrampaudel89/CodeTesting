@@ -1,5 +1,0 @@
-<Solution>
-  <Project Path="CodeTesting.AppHost/CodeTesting.AppHost.csproj" />
-  <Project Path="CodeTesting.ServiceDefaults/CodeTesting.ServiceDefaults.csproj" />
-  <Project Path="CodeTesting/CodeTesting.csproj" />
-</Solution>
