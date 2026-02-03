@@ -7,13 +7,9 @@ using SharedKernel;
 
 namespace Infrastructure.Database;
 
-public sealed class ApplicationDbContext(
-    DbContextOptions<ApplicationDbContext> options,
-    IDomainEventsDispatcher domainEventsDispatcher)
-    : DbContext(options), IApplicationDbContext
+public sealed class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options,IDomainEventsDispatcher domainEventsDispatcher): DbContext(options), IApplicationDbContext
 {
     public DbSet<User> Users { get; set; }
-
     public DbSet<TodoItem> TodoItems { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
