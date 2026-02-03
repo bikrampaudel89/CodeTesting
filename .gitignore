@@ -5,3 +5,6 @@
 /CodeTesting/.vs/CodeTesting/CopilotIndices/18.0.988.22099
 /.vs
 /CodeTesting/CodeTesting.ServiceDefaults/obj
+/CodeTesting/CodeTesting/bin/Debug/net10.0
+/CodeTesting/Code.Domain/obj
+/CodeTesting/CodeTesting.AppHost/bin/Debug/net10.0
